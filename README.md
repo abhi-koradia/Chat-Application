@@ -1,6 +1,4 @@
-# Chat App
-
-
+# Chat Application
 
 ## Features
 
@@ -11,15 +9,7 @@
 5. Chat bot messages
 6. Connecting via room name
 
-## Installation
 
-1. `git clone https://github.com/madzadev/chat.git`
-
-2. `cd chat`
-
-3. `cd server && npm install` and `npm run server`
-
-4. `cd client && npm install` and `npm start`
 
 ## Contributions
 
