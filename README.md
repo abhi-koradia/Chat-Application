@@ -1,8 +1,6 @@
 # Chat App
 
-Real time chat app built with React, Express and Socket.io.
 
-![Chat](https://i.imgur.com/BxI8MOz.png)
 
 ## Features
 
