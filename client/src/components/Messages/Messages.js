@@ -6,7 +6,7 @@ import "./Messages.css";
 
 const Messages = ({ messages, name }) => {
   return (
-    <ScrollToBottom className="messages">
+    <ScrollToBottom className="messages" style={{}}>
       {messages.map((message, i) => (
         <div key={i}>
           <Message message={message} name={name} />

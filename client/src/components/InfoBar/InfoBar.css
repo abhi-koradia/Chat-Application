@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--purple-color);
+  background: linear-gradient(to right, #ff5e62, #ff9966);
   height: 60px;
   width: 100%;
 }

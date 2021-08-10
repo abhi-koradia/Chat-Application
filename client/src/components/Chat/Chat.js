@@ -67,7 +67,7 @@ const Chat = ({ location }) => {
       </Helmet>
       <div className="chat-wrapper">
         <div className="list-wrapper">
-          <h2>Users online: {users.length}</h2>
+          <h2>Users Online: {users.length}</h2>
           {users.map((el, index) => {
             return (
               <h3 className="list-user" key={index}>

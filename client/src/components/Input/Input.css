@@ -3,7 +3,8 @@
 
 .form {
   display: flex;
-  border-top: 1px solid #d3d3d3;
+  border-top: 2px solid #d3d3d3;
+  background: #fff;
   vertical-align: bottom;
   padding: 10px;
   box-sizing: border-box;
@@ -19,6 +20,7 @@
   /* font-size: 1.2em; */
   background-color: rgb(241, 241, 241);
   font-size: 0.9em;
+  margin-right: 10px;
 }
 
 input:focus,
@@ -31,17 +33,17 @@ select:focus {
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: var(--purple-color);
+  background: linear-gradient(180deg, #ff5e62 0%, #ff9966 100%);
   padding: 20px;
   display: inline-block;
   border: none;
   width: 150px;
   height: 60px;
-  border-radius: 20px;
+  border-radius: 30px;
   font-family: "Montserrat", sans-serif;
 }
 
 .send-button:hover {
-  background: var(--purple-color-hover);
+  background: linear-gradient(180deg,  #ff9966 0%, #ff5e62 100%);
   cursor: pointer;
 }
