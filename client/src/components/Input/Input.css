@@ -33,7 +33,9 @@ select:focus {
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: linear-gradient(180deg, #ff5e62 0%, #ff9966 100%);
+  transition: 0.5s;
+  background-image: linear-gradient(to right, #ff5e62 0%, #ff9966 100%);
+  background-size: 200% auto;
   padding: 20px;
   display: inline-block;
   border: none;
@@ -44,6 +46,6 @@ select:focus {
 }
 
 .send-button:hover {
-  background: linear-gradient(180deg,  #ff9966 0%, #ff5e62 100%);
-  cursor: pointer;
+  background-position: right center; 
+  text-decoration: none;
 }
